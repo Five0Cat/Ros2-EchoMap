@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target local_mapper_node[0m
+[100%] Built target local_mapper_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch/demo.launch.py
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/package_run_dependencies/local_mapper
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/parent_prefix_path/local_mapper
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.sh
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.sh
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.dsv
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.bash
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.sh
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.zsh
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.dsv
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.dsv
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/packages/local_mapper
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig.cmake
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig-version.cmake
+-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.xml

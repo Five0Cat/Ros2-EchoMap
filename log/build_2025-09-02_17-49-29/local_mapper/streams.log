@@ -1,0 +1,34 @@
+[0.018s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target local_mapper_node[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o[0m
+[2.998s] In file included from [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:4[m[K:
+[2.998s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:[m[K In function ‘[01m[Kint lm::cellIndex(int, int, int)[m[K’:
+[2.998s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.998s]    24 | inline int cellIndex([01;35m[Kint ix[m[K, int iy, int w) {
+[2.998s]       |                      [01;35m[K~~~~^~[m[K
+[2.998s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.998s]    24 | inline int cellIndex(int ix, [01;35m[Kint iy[m[K, int w) {
+[2.998s]       |                              [01;35m[K~~~~^~[m[K
+[2.998s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.998s]    24 | inline int cellIndex(int ix, int iy, [01;35m[Kint w[m[K) {
+[2.998s]       |                                      [01;35m[K~~~~^[m[K
+[3.066s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:[m[K In member function ‘[01m[Kvoid LocalMapper::rasterizeScan_(const LaserScan&)[m[K’:
+[3.066s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:54:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.066s]    54 |   void rasterizeScan_([01;35m[Kconst sensor_msgs::msg::LaserScan& scan[m[K) {
+[3.066s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[9.916s] [100%] [32m[1mLinking CXX executable local_mapper_node[0m
+[10.534s] [100%] Built target local_mapper_node
+[10.549s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[10.563s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper
+[10.573s] -- Install configuration: ""
+[10.573s] -- Execute custom install script
+[10.574s] -- Symlinking: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node
+[10.587s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[10.587s]   ament_cmake_symlink_install_directory() can't find
+[10.587s]   '/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/launch'
+[10.587s] Call Stack (most recent call first):
+[10.587s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[10.588s]   cmake_install.cmake:46 (include)
+[10.588s] 
+[10.588s] [0m
+[10.590s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper

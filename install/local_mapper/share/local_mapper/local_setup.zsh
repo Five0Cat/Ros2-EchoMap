@@ -1,0 +1,1 @@
+/home/fvc/ros2_ws/build/local_mapper/ament_cmake_environment_hooks/local_setup.zsh

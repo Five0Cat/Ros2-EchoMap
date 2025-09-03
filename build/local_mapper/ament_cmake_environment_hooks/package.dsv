@@ -1,0 +1,4 @@
+source;share/local_mapper/local_setup.bash
+source;share/local_mapper/local_setup.dsv
+source;share/local_mapper/local_setup.sh
+source;share/local_mapper/local_setup.zsh

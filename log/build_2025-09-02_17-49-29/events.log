@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (local_mapper) JobQueued: {'identifier': 'local_mapper', 'dependencies': OrderedDict()}
+[0.000759] (local_mapper) JobStarted: {'identifier': 'local_mapper'}
+[0.018535] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'cmake'}
+[0.018624] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'build'}
+[0.018651] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/local_mapper', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1019'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1019,unix/fvc-virtual-machine:/tmp/.ICE-unix/1019'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b995c39c_646c_4bdf_a207_756dc1e556cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099264] (-) TimerEvent: {}
+[0.118192] (local_mapper) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_mapper_node\x1b[0m\n'}
+[0.173715] (local_mapper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o\x1b[0m\n'}
+[0.199573] (-) TimerEvent: {}
+[0.306678] (-) TimerEvent: {}
+[0.407627] (-) TimerEvent: {}
+[0.513936] (-) TimerEvent: {}
+[0.618671] (-) TimerEvent: {}
+[0.721340] (-) TimerEvent: {}
+[0.825201] (-) TimerEvent: {}
+[0.932942] (-) TimerEvent: {}
+[1.035058] (-) TimerEvent: {}
+[1.136890] (-) TimerEvent: {}
+[1.237845] (-) TimerEvent: {}
+[1.339094] (-) TimerEvent: {}
+[1.440282] (-) TimerEvent: {}
+[1.541123] (-) TimerEvent: {}
+[1.642690] (-) TimerEvent: {}
+[1.743783] (-) TimerEvent: {}
+[1.844968] (-) TimerEvent: {}
+[1.945955] (-) TimerEvent: {}
+[2.047338] (-) TimerEvent: {}
+[2.148603] (-) TimerEvent: {}
+[2.249787] (-) TimerEvent: {}
+[2.351039] (-) TimerEvent: {}
+[2.451854] (-) TimerEvent: {}
+[2.552817] (-) TimerEvent: {}
+[2.653294] (-) TimerEvent: {}
+[2.754079] (-) TimerEvent: {}
+[2.854467] (-) TimerEvent: {}
+[2.955152] (-) TimerEvent: {}
+[2.997985] (local_mapper) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:4\x1b[m\x1b[K:\n'}
+[2.998587] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint lm::cellIndex(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.998671] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.998735] (local_mapper) StderrLine: {'line': b'   24 | inline int cellIndex(\x1b[01;35m\x1b[Kint ix\x1b[m\x1b[K, int iy, int w) {\n'}
+[2.998791] (local_mapper) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~\x1b[m\x1b[K\n'}
+[2.998842] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.998922] (local_mapper) StderrLine: {'line': b'   24 | inline int cellIndex(int ix, \x1b[01;35m\x1b[Kint iy\x1b[m\x1b[K, int w) {\n'}
+[2.999069] (local_mapper) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~^~\x1b[m\x1b[K\n'}
+[2.999136] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.999194] (local_mapper) StderrLine: {'line': b'   24 | inline int cellIndex(int ix, int iy, \x1b[01;35m\x1b[Kint w\x1b[m\x1b[K) {\n'}
+[2.999246] (local_mapper) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[3.055380] (-) TimerEvent: {}
+[3.066276] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalMapper::rasterizeScan_(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.066518] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:54:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.066641] (local_mapper) StderrLine: {'line': b'   54 |   void rasterizeScan_(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan& scan\x1b[m\x1b[K) {\n'}
+[3.066735] (local_mapper) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.155764] (-) TimerEvent: {}
+[3.260236] (-) TimerEvent: {}
+[3.361944] (-) TimerEvent: {}
+[3.462792] (-) TimerEvent: {}
+[3.568649] (-) TimerEvent: {}
+[3.669343] (-) TimerEvent: {}
+[3.770845] (-) TimerEvent: {}
+[3.871917] (-) TimerEvent: {}
+[3.973205] (-) TimerEvent: {}
+[4.074142] (-) TimerEvent: {}
+[4.175087] (-) TimerEvent: {}
+[4.276631] (-) TimerEvent: {}
+[4.378021] (-) TimerEvent: {}
+[4.479178] (-) TimerEvent: {}
+[4.580288] (-) TimerEvent: {}
+[4.681922] (-) TimerEvent: {}
+[4.783435] (-) TimerEvent: {}
+[4.884738] (-) TimerEvent: {}
+[4.985900] (-) TimerEvent: {}
+[5.087479] (-) TimerEvent: {}
+[5.188652] (-) TimerEvent: {}
+[5.289878] (-) TimerEvent: {}
+[5.390708] (-) TimerEvent: {}
+[5.491856] (-) TimerEvent: {}
+[5.592599] (-) TimerEvent: {}
+[5.693414] (-) TimerEvent: {}
+[5.795205] (-) TimerEvent: {}
+[5.896279] (-) TimerEvent: {}
+[5.997929] (-) TimerEvent: {}
+[6.098570] (-) TimerEvent: {}
+[6.200129] (-) TimerEvent: {}
+[6.300503] (-) TimerEvent: {}
+[6.401315] (-) TimerEvent: {}
+[6.502222] (-) TimerEvent: {}
+[6.603319] (-) TimerEvent: {}
+[6.705397] (-) TimerEvent: {}
+[6.810433] (-) TimerEvent: {}
+[6.912396] (-) TimerEvent: {}
+[7.012977] (-) TimerEvent: {}
+[7.116356] (-) TimerEvent: {}
+[7.217521] (-) TimerEvent: {}
+[7.319799] (-) TimerEvent: {}
+[7.420313] (-) TimerEvent: {}
+[7.522344] (-) TimerEvent: {}
+[7.624222] (-) TimerEvent: {}
+[7.726712] (-) TimerEvent: {}
+[7.827783] (-) TimerEvent: {}
+[7.930595] (-) TimerEvent: {}
+[8.031901] (-) TimerEvent: {}
+[8.133555] (-) TimerEvent: {}
+[8.234547] (-) TimerEvent: {}
+[8.335722] (-) TimerEvent: {}
+[8.436980] (-) TimerEvent: {}
+[8.538048] (-) TimerEvent: {}
+[8.638473] (-) TimerEvent: {}
+[8.739687] (-) TimerEvent: {}
+[8.840370] (-) TimerEvent: {}
+[8.941142] (-) TimerEvent: {}
+[9.041820] (-) TimerEvent: {}
+[9.142819] (-) TimerEvent: {}
+[9.243368] (-) TimerEvent: {}
+[9.344081] (-) TimerEvent: {}
+[9.444654] (-) TimerEvent: {}
+[9.545507] (-) TimerEvent: {}
+[9.646225] (-) TimerEvent: {}
+[9.746789] (-) TimerEvent: {}
+[9.847889] (-) TimerEvent: {}
+[9.916761] (local_mapper) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable local_mapper_node\x1b[0m\n'}
+[9.947984] (-) TimerEvent: {}
+[10.048789] (-) TimerEvent: {}
+[10.160427] (-) TimerEvent: {}
+[10.264299] (-) TimerEvent: {}
+[10.366094] (-) TimerEvent: {}
+[10.467616] (-) TimerEvent: {}
+[10.534590] (local_mapper) StdoutLine: {'line': b'[100%] Built target local_mapper_node\n'}
+[10.550009] (local_mapper) CommandEnded: {'returncode': 0}
+[10.551793] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'install'}
+[10.563903] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fvc/ros2_ws/build/local_mapper'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1019'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1019,unix/fvc-virtual-machine:/tmp/.ICE-unix/1019'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b995c39c_646c_4bdf_a207_756dc1e556cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.570834] (-) TimerEvent: {}
+[10.573180] (local_mapper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.574127] (local_mapper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.574881] (local_mapper) StdoutLine: {'line': b'-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node\n'}
+[10.587892] (local_mapper) StderrLine: {'line': b'\x1b[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):\n'}
+[10.588128] (local_mapper) StderrLine: {'line': b"  ament_cmake_symlink_install_directory() can't find\n"}
+[10.588191] (local_mapper) StderrLine: {'line': b"  '/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/launch'\n"}
+[10.588246] (local_mapper) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.588297] (local_mapper) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)\n'}
+[10.588346] (local_mapper) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[10.588393] (local_mapper) StderrLine: {'line': b'\n'}
+[10.588441] (local_mapper) StderrLine: {'line': b'\x1b[0m\n'}
+[10.590118] (local_mapper) CommandEnded: {'returncode': 1}
+[10.604023] (local_mapper) JobEnded: {'identifier': 'local_mapper', 'rc': 1}
+[10.614975] (-) EventReactorShutdown: {}

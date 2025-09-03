@@ -1,0 +1,23 @@
+In file included from [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:4[m[K:
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:[m[K In function ‘[01m[Kint lm::cellIndex(int, int, int)[m[K’:
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kix[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 | inline int cellIndex([01;35m[Kint ix[m[K, int iy, int w) {
+      |                      [01;35m[K~~~~^~[m[K
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 | inline int cellIndex(int ix, [01;35m[Kint iy[m[K, int w) {
+      |                              [01;35m[K~~~~^~[m[K
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 | inline int cellIndex(int ix, int iy, [01;35m[Kint w[m[K) {
+      |                                      [01;35m[K~~~~^[m[K
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:[m[K In member function ‘[01m[Kvoid LocalMapper::rasterizeScan_(const LaserScan&)[m[K’:
+[01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:54:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |   void rasterizeScan_([01;35m[Kconst sensor_msgs::msg::LaserScan& scan[m[K) {
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/launch'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

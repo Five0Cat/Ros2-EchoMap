@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (local_mapper) JobQueued: {'identifier': 'local_mapper', 'dependencies': OrderedDict()}
+[0.000304] (local_mapper) JobStarted: {'identifier': 'local_mapper'}
+[0.010987] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'cmake'}
+[0.018569] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'build'}
+[0.018873] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/local_mapper', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1019'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1019,unix/fvc-virtual-machine:/tmp/.ICE-unix/1019'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b995c39c_646c_4bdf_a207_756dc1e556cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3f4838b82bb7cc5454233d4968b654ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086730] (local_mapper) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_mapper_node\x1b[0m\n'}
+[0.101145] (-) TimerEvent: {}
+[0.111387] (local_mapper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o\x1b[0m\n'}
+[0.207170] (-) TimerEvent: {}
+[0.309100] (-) TimerEvent: {}
+[0.412447] (-) TimerEvent: {}
+[0.513667] (-) TimerEvent: {}
+[0.616105] (-) TimerEvent: {}
+[0.716558] (-) TimerEvent: {}
+[0.820152] (-) TimerEvent: {}
+[0.923598] (-) TimerEvent: {}
+[1.025220] (-) TimerEvent: {}
+[1.126609] (-) TimerEvent: {}
+[1.227981] (-) TimerEvent: {}
+[1.330680] (-) TimerEvent: {}
+[1.431080] (-) TimerEvent: {}
+[1.532723] (-) TimerEvent: {}
+[1.633564] (-) TimerEvent: {}
+[1.734691] (-) TimerEvent: {}
+[1.835366] (-) TimerEvent: {}
+[1.936295] (-) TimerEvent: {}
+[2.037191] (-) TimerEvent: {}
+[2.137651] (-) TimerEvent: {}
+[2.238775] (-) TimerEvent: {}
+[2.339861] (-) TimerEvent: {}
+[2.441198] (-) TimerEvent: {}
+[2.542394] (-) TimerEvent: {}
+[2.642746] (-) TimerEvent: {}
+[2.743271] (-) TimerEvent: {}
+[2.844015] (-) TimerEvent: {}
+[2.936752] (local_mapper) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:4\x1b[m\x1b[K:\n'}
+[2.937012] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::optional<std::pair<int, int> > lm::worldToCell(double, double, const lm::GridInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.937107] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:17:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.937249] (local_mapper) StderrLine: {'line': b'   17 |     if(ix > \x1b[01;31m\x1b[Kw\x1b[m\x1b[K){\n'}
+[2.937312] (local_mapper) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.939035] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:19:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kh\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.939677] (local_mapper) StderrLine: {'line': b'   19 |     }else if(iy > \x1b[01;31m\x1b[Kh\x1b[m\x1b[K)\n'}
+[2.940779] (local_mapper) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.940852] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint lm::cellIndex(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.940916] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:28:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kix\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.940978] (local_mapper) StderrLine: {'line': b'   28 | inline int cellIndex(\x1b[01;35m\x1b[Kint ix\x1b[m\x1b[K, int iy, int w) {\n'}
+[2.941032] (local_mapper) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~^~\x1b[m\x1b[K\n'}
+[2.941090] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:28:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.941147] (local_mapper) StderrLine: {'line': b'   28 | inline int cellIndex(int ix, \x1b[01;35m\x1b[Kint iy\x1b[m\x1b[K, int w) {\n'}
+[2.941257] (local_mapper) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~^~\x1b[m\x1b[K\n'}
+[2.941332] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:28:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.941388] (local_mapper) StderrLine: {'line': b'   28 | inline int cellIndex(int ix, int iy, \x1b[01;35m\x1b[Kint w\x1b[m\x1b[K) {\n'}
+[2.941439] (local_mapper) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[2.945616] (-) TimerEvent: {}
+[3.018045] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalMapper::rasterizeScan_(const LaserScan&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.018287] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:54:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.018355] (local_mapper) StderrLine: {'line': b'   54 |   void rasterizeScan_(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan& scan\x1b[m\x1b[K) {\n'}
+[3.018413] (local_mapper) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.020269] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalMapper::onTimer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.020481] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:77:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Krcl_time_point_value_t rclcpp::Time::nanoseconds() const\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[3.020558] (local_mapper) StderrLine: {'line': b'   77 |     grid_.header.stamp = (\x1b[01;31m\x1b[Klast_stamp_.nanoseconds\x1b[m\x1b[K==0 && last_stamp_.sec==0) ? this->now() : last_stamp_;\n'}
+[3.020622] (local_mapper) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.020674] (local_mapper) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K()\x1b[m\x1b[K\n'}
+[3.020722] (local_mapper) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/src/local_mapper.cpp:77:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksec\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.020775] (local_mapper) StderrLine: {'line': b'   77 |     grid_.header.stamp = (last_stamp_.nanoseconds==0 && last_stamp_.\x1b[01;31m\x1b[Ksec\x1b[m\x1b[K==0) ? this->now() : last_stamp_;\n'}
+[3.020831] (local_mapper) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.046616] (-) TimerEvent: {}
+[3.148391] (-) TimerEvent: {}
+[3.249627] (-) TimerEvent: {}
+[3.356313] (-) TimerEvent: {}
+[3.458792] (-) TimerEvent: {}
+[3.570282] (-) TimerEvent: {}
+[3.671189] (-) TimerEvent: {}
+[3.777074] (-) TimerEvent: {}
+[3.877651] (-) TimerEvent: {}
+[3.980296] (-) TimerEvent: {}
+[4.080809] (-) TimerEvent: {}
+[4.182156] (-) TimerEvent: {}
+[4.283103] (-) TimerEvent: {}
+[4.384196] (-) TimerEvent: {}
+[4.493783] (-) TimerEvent: {}
+[4.600583] (-) TimerEvent: {}
+[4.701021] (-) TimerEvent: {}
+[4.803503] (-) TimerEvent: {}
+[4.907869] (-) TimerEvent: {}
+[5.008909] (-) TimerEvent: {}
+[5.109867] (-) TimerEvent: {}
+[5.211670] (-) TimerEvent: {}
+[5.313918] (-) TimerEvent: {}
+[5.414788] (-) TimerEvent: {}
+[5.515297] (-) TimerEvent: {}
+[5.616339] (-) TimerEvent: {}
+[5.720881] (-) TimerEvent: {}
+[5.825026] (-) TimerEvent: {}
+[5.927823] (-) TimerEvent: {}
+[6.028930] (-) TimerEvent: {}
+[6.129757] (-) TimerEvent: {}
+[6.230929] (-) TimerEvent: {}
+[6.331924] (-) TimerEvent: {}
+[6.433563] (-) TimerEvent: {}
+[6.534826] (-) TimerEvent: {}
+[6.636007] (-) TimerEvent: {}
+[6.737392] (-) TimerEvent: {}
+[6.740386] (local_mapper) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/local_mapper_node.dir/build.make:76: CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o] Error 1\n'}
+[6.741000] (local_mapper) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_mapper_node.dir/all] Error 2\n'}
+[6.741187] (local_mapper) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.745425] (local_mapper) CommandEnded: {'returncode': 2}
+[6.757961] (local_mapper) JobEnded: {'identifier': 'local_mapper', 'rc': 2}
+[6.769384] (-) EventReactorShutdown: {}
