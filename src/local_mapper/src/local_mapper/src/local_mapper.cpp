@@ -8,7 +8,7 @@ public:
   LocalMapper() : rclcpp::Node("local_mapper") {
     // 1) 读取参数（可从 YAML 载入）
     // declare_parameter + get_parameter，或直接硬编码第一版
-    frame_id_ = this->declare_parameter<std::string>("grid.frame_id", "odom");
+    frame_id_ = this->declare_parameter<std::string>("grid.frame_id", "map");
     res_      = this->declare_parameter<double>("grid.resolution", 0.05);
     w_        = this->declare_parameter<int>("grid.width", 200);
     h_        = this->declare_parameter<int>("grid.height", 200);
@@ -52,26 +52,47 @@ private:
 
   // 把一条 scan 写进 grid_.data（核心逻辑：你来填）
   void rasterizeScan_(const sensor_msgs::msg::LaserScan& scan) {
-    // 思路：
-    // for i in [0, N):
-    //   range = scan.ranges[i]; if 无效或 > max_range_ → continue
-    //   angle = scan.angle_min + i * scan.angle_increment
-    //   // 将极坐标(r,theta)转换成世界坐标，假设激光位于 (0,0) in frame_id_
-    //   x = r * cos(theta); y = r * sin(theta);
-    //   // world->cell
-    //   auto idx = lm::worldToCell(x, y, {res_, w_, h_, ox_, oy_});
-    //   if (idx) grid_.data[ lm::cellIndex(idx->first, idx->second, w_) ] = mark_val_;
-    //
-    // 进阶：顺便画一条从(0,0)到(x,y)的“空闲射线”（Bresenham/Ray marching），把沿途置 0。
+    const float r_max = std::min<float>(scan.range_max,static_cast<float>(max_range_));
+    const float r_min = std::max<float>(0.f,scan.range_min);
+    const int N = static_cast<int>(scan.ranges.size());
+    
+    if(N <= 0) return ;
+
+    for(int i = 0 ; i < N ; ++i){
+      float r = scan.ranges[i];
+      if(!std::isfinite(r)) continue;
+      if(r < r_min || r > r_max) continue;
+
+      const float theta = scan.angle_min + i * scan.angle_increment;
+        // Sensor assumed at (0,0) in grid frame_id_
+    const double x = static_cast<double>(r) * std::cos(theta);
+    const double y = static_cast<double>(r) * std::sin(theta);
+
+    if (auto ij = lm::worldToCell(x, y, {res_, w_, h_, ox_, oy_})){
+  const int idx = lm::cellIndex(ij->first, ij->second, w_);
+      if (idx >= 0 && idx < static_cast<int>(grid_.data.size())) {
+        grid_.data[idx] = static_cast<int8_t>(mark_val_); // e.g. 100 = occupied
+      }
+    }
+    }
+
   }
 
   // 激光回调：更新内部 grid_，刷新时间戳
-  void onScan(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
-    // 可选：每次先清空为 -1 或 0，或做衰减（先进阶）
-    // 例如：std::fill(grid_.data.begin(), grid_.data.end(), -1);
-    rasterizeScan_(*msg);
-    last_stamp_ = msg->header.stamp;
-  }
+ void onScan(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+  //    -1 = unknown, 0 = free, 100 = occupied
+  std::fill(grid_.data.begin(), grid_.data.end(), -1);
+
+  rasterizeScan_(*msg);
+
+  // 3) 更新时间戳和 frame_id
+  last_stamp_ = msg->header.stamp;
+  grid_.header.stamp = last_stamp_;
+  grid_.header.frame_id = frame_id_;   
+
+  // 4) 发布 OccupancyGrid
+  pub_grid_->publish(grid_);
+}
 
   void onTimer() {
     grid_.header.stamp = (last_stamp_.nanoseconds()==0) ? this->now() : last_stamp_;
@@ -87,7 +108,7 @@ private:
   // 参数
   std::string frame_id_;
   double res_{0.05};
-  int w_{200}, h_{200};
+  int w_{165}, h_{165};
   double ox_{-5.0}, oy_{-5.0};
   double max_range_{6.0};
   int mark_val_{100};

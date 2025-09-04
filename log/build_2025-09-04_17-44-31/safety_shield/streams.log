@@ -1,0 +1,27 @@
+[0.057s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target safety_shield_node[0m
+[0.339s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[7.375s] [100%] [32m[1mLinking CXX executable safety_shield_node[0m
+[7.832s] [100%] Built target safety_shield_node
+[7.867s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[7.877s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield
+[7.892s] -- Install configuration: ""
+[7.892s] -- Installing: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node
+[7.896s] -- Set runtime path of "/home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node" to ""
+[7.896s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/launch
+[7.896s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/package_run_dependencies/safety_shield
+[7.896s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/parent_prefix_path/safety_shield
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.sh
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.dsv
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.sh
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.dsv
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.bash
+[7.897s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.sh
+[7.898s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.zsh
+[7.898s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.dsv
+[7.898s] -- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.dsv
+[7.899s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/packages/safety_shield
+[7.899s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig.cmake
+[7.899s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig-version.cmake
+[7.900s] -- Up-to-date: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.xml
+[7.905s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield

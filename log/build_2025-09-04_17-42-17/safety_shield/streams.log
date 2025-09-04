@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.288s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[5.513s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.513s]     9 |     [01;31m[Ktimer_[m[K = create_wall_timer(std::chrono::seconds(1),
+[5.514s]       |     [01;31m[K^~~~~~[m[K
+[5.514s]       |     [32m[Ktimer_t[m[K
+[5.514s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:10:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.514s]    10 |       [this]{ RCLCPP_INFO(get_logger(), ">>> onTimer tick"); }[01;31m[K)[m[K;
+[5.514s]       |                                                               [01;31m[K^[m[K
+[5.521s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:11:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.521s]    11 |   }
+[5.521s]       |    [01;31m[K^[m[K
+[5.521s]       |    [32m[K;[m[K
+[5.521s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[5.521s]    12 | [01;31m[K}[m[K;
+[5.521s]       | [01;31m[K^[m[K
+[6.334s] gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+[6.335s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/safety_shield_node.dir/all] Error 2
+[6.337s] gmake: *** [Makefile:146: all] Error 2
+[6.339s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2

@@ -1,0 +1,12 @@
+[0.045s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target safety_shield_node[0m
+[0.318s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[5.650s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:[m[K In constructor ‘[01m[KSimpleNode::SimpleNode()[m[K’:
+[5.650s] [01m[K/home/fvc/ros2_ws/safety_shield/src/safety_shield.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.650s]     8 |         [01;31m[Ktimer_[m[K = create_wall_timer(std::chrono::seconds(1),
+[5.650s]       |         [01;31m[K^~~~~~[m[K
+[5.650s]       |         [32m[Ktimer_t[m[K
+[6.655s] gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+[6.655s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/safety_shield_node.dir/all] Error 2
+[6.656s] gmake: *** [Makefile:146: all] Error 2
+[6.660s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
