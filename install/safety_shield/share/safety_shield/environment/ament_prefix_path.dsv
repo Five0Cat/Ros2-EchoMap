@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/fvc/ros2_ws/build/safety_shield/ament_cmake_environment_hooks/ament_prefix_path.dsv

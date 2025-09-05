@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.001374] (local_mapper) JobQueued: {'identifier': 'local_mapper', 'dependencies': OrderedDict()}
+[0.001412] (safety_shield) JobQueued: {'identifier': 'safety_shield', 'dependencies': OrderedDict([('local_mapper', '/home/fvc/ros2_ws/install/local_mapper')])}
+[0.001434] (local_mapper) JobStarted: {'identifier': 'local_mapper'}
+[0.009393] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'cmake'}
+[0.010055] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'build'}
+[0.010709] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/local_mapper', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099806] (local_mapper) StdoutLine: {'line': b'[100%] Built target local_mapper_node\n'}
+[0.100021] (-) TimerEvent: {}
+[0.125767] (local_mapper) CommandEnded: {'returncode': 0}
+[0.126253] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'install'}
+[0.143099] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fvc/ros2_ws/build/local_mapper'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.156258] (local_mapper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.157486] (local_mapper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.158365] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node\n'}
+[0.159241] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch/demo.launch.py\n'}
+[0.159900] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/package_run_dependencies/local_mapper\n'}
+[0.160515] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/parent_prefix_path/local_mapper\n'}
+[0.161385] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.sh\n'}
+[0.164294] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.dsv\n'}
+[0.164750] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.sh\n'}
+[0.165141] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.dsv\n'}
+[0.165619] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.bash\n'}
+[0.166410] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.sh\n'}
+[0.166496] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.zsh\n'}
+[0.166575] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.dsv\n'}
+[0.166629] (local_mapper) StdoutLine: {'line': b'-- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.dsv\n'}
+[0.178771] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/packages/local_mapper\n'}
+[0.179469] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.179542] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig.cmake\n'}
+[0.179599] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig-version.cmake\n'}
+[0.180716] (local_mapper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.xml\n'}
+[0.185380] (local_mapper) CommandEnded: {'returncode': 0}
+[0.200499] (-) TimerEvent: {}
+[0.207479] (local_mapper) JobEnded: {'identifier': 'local_mapper', 'rc': 0}
+[0.209454] (safety_shield) JobStarted: {'identifier': 'safety_shield'}
+[0.220458] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'cmake'}
+[0.225526] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'build'}
+[0.228492] (safety_shield) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/safety_shield', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/safety_shield', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/safety_shield'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble')]), 'shell': False}
+[0.307714] (-) TimerEvent: {}
+[0.332963] (safety_shield) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target safety_shield_node\x1b[0m\n'}
+[0.358406] (safety_shield) StdoutLine: {'line': b'[ 50%] Built target publisher_node\n'}
+[0.390370] (safety_shield) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o\x1b[0m\n'}
+[0.409060] (-) TimerEvent: {}
+[0.512064] (-) TimerEvent: {}
+[0.613601] (-) TimerEvent: {}
+[0.715032] (-) TimerEvent: {}
+[0.817866] (-) TimerEvent: {}
+[0.919712] (-) TimerEvent: {}
+[1.029721] (-) TimerEvent: {}
+[1.137404] (-) TimerEvent: {}
+[1.239245] (-) TimerEvent: {}
+[1.341600] (-) TimerEvent: {}
+[1.442683] (-) TimerEvent: {}
+[1.544712] (-) TimerEvent: {}
+[1.646441] (-) TimerEvent: {}
+[1.748253] (-) TimerEvent: {}
+[1.851320] (-) TimerEvent: {}
+[1.952971] (-) TimerEvent: {}
+[2.054111] (-) TimerEvent: {}
+[2.155239] (-) TimerEvent: {}
+[2.256153] (-) TimerEvent: {}
+[2.357254] (-) TimerEvent: {}
+[2.459278] (-) TimerEvent: {}
+[2.561617] (-) TimerEvent: {}
+[2.665341] (-) TimerEvent: {}
+[2.768534] (-) TimerEvent: {}
+[2.872734] (-) TimerEvent: {}
+[2.976505] (-) TimerEvent: {}
+[3.079045] (-) TimerEvent: {}
+[3.184329] (-) TimerEvent: {}
+[3.291750] (-) TimerEvent: {}
+[3.396535] (-) TimerEvent: {}
+[3.497720] (-) TimerEvent: {}
+[3.601615] (-) TimerEvent: {}
+[3.708989] (-) TimerEvent: {}
+[3.811133] (-) TimerEvent: {}
+[3.912433] (-) TimerEvent: {}
+[4.013903] (-) TimerEvent: {}
+[4.116318] (-) TimerEvent: {}
+[4.218595] (-) TimerEvent: {}
+[4.320130] (-) TimerEvent: {}
+[4.421408] (-) TimerEvent: {}
+[4.523061] (-) TimerEvent: {}
+[4.624957] (-) TimerEvent: {}
+[4.730241] (-) TimerEvent: {}
+[4.835527] (-) TimerEvent: {}
+[4.936479] (-) TimerEvent: {}
+[5.037492] (-) TimerEvent: {}
+[5.138637] (-) TimerEvent: {}
+[5.240190] (-) TimerEvent: {}
+[5.340564] (-) TimerEvent: {}
+[5.441022] (-) TimerEvent: {}
+[5.541596] (-) TimerEvent: {}
+[5.642570] (-) TimerEvent: {}
+[5.743072] (-) TimerEvent: {}
+[5.843580] (-) TimerEvent: {}
+[5.944487] (-) TimerEvent: {}
+[6.044892] (-) TimerEvent: {}
+[6.145731] (-) TimerEvent: {}
+[6.246508] (-) TimerEvent: {}
+[6.347439] (-) TimerEvent: {}
+[6.448690] (-) TimerEvent: {}
+[6.549678] (-) TimerEvent: {}
+[6.651505] (-) TimerEvent: {}
+[6.752278] (-) TimerEvent: {}
+[6.852895] (-) TimerEvent: {}
+[6.953239] (-) TimerEvent: {}
+[7.054156] (-) TimerEvent: {}
+[7.154670] (-) TimerEvent: {}
+[7.255147] (-) TimerEvent: {}
+[7.355849] (-) TimerEvent: {}
+[7.456537] (-) TimerEvent: {}
+[7.556981] (-) TimerEvent: {}
+[7.657602] (-) TimerEvent: {}
+[7.758414] (-) TimerEvent: {}
+[7.858994] (-) TimerEvent: {}
+[7.960963] (-) TimerEvent: {}
+[8.062064] (-) TimerEvent: {}
+[8.163590] (-) TimerEvent: {}
+[8.265326] (-) TimerEvent: {}
+[8.365903] (-) TimerEvent: {}
+[8.466622] (-) TimerEvent: {}
+[8.567329] (-) TimerEvent: {}
+[8.668136] (-) TimerEvent: {}
+[8.768753] (-) TimerEvent: {}
+[8.869408] (-) TimerEvent: {}
+[8.970201] (-) TimerEvent: {}
+[9.071094] (-) TimerEvent: {}
+[9.171944] (-) TimerEvent: {}
+[9.272666] (-) TimerEvent: {}
+[9.373179] (-) TimerEvent: {}
+[9.475573] (-) TimerEvent: {}
+[9.576390] (-) TimerEvent: {}
+[9.677243] (-) TimerEvent: {}
+[9.778247] (-) TimerEvent: {}
+[9.879508] (-) TimerEvent: {}
+[9.979985] (-) TimerEvent: {}
+[10.080563] (-) TimerEvent: {}
+[10.181507] (-) TimerEvent: {}
+[10.282460] (-) TimerEvent: {}
+[10.383237] (-) TimerEvent: {}
+[10.486156] (-) TimerEvent: {}
+[10.590668] (-) TimerEvent: {}
+[10.698199] (-) TimerEvent: {}
+[10.799323] (-) TimerEvent: {}
+[10.899840] (-) TimerEvent: {}
+[11.000519] (-) TimerEvent: {}
+[11.101306] (-) TimerEvent: {}
+[11.201902] (-) TimerEvent: {}
+[11.303808] (-) TimerEvent: {}
+[11.404508] (-) TimerEvent: {}
+[11.505529] (-) TimerEvent: {}
+[11.606246] (-) TimerEvent: {}
+[11.708128] (-) TimerEvent: {}
+[11.808989] (-) TimerEvent: {}
+[11.910399] (-) TimerEvent: {}
+[12.011523] (-) TimerEvent: {}
+[12.113809] (-) TimerEvent: {}
+[12.214327] (-) TimerEvent: {}
+[12.315032] (-) TimerEvent: {}
+[12.416775] (-) TimerEvent: {}
+[12.519164] (-) TimerEvent: {}
+[12.620430] (-) TimerEvent: {}
+[12.724620] (-) TimerEvent: {}
+[12.826891] (-) TimerEvent: {}
+[12.929279] (-) TimerEvent: {}
+[13.031199] (-) TimerEvent: {}
+[13.132111] (-) TimerEvent: {}
+[13.233451] (-) TimerEvent: {}
+[13.335161] (-) TimerEvent: {}
+[13.435680] (-) TimerEvent: {}
+[13.536414] (-) TimerEvent: {}
+[13.636979] (-) TimerEvent: {}
+[13.737446] (-) TimerEvent: {}
+[13.838215] (-) TimerEvent: {}
+[13.938614] (-) TimerEvent: {}
+[14.040148] (-) TimerEvent: {}
+[14.140885] (-) TimerEvent: {}
+[14.241639] (-) TimerEvent: {}
+[14.342485] (-) TimerEvent: {}
+[14.443215] (-) TimerEvent: {}
+[14.545851] (-) TimerEvent: {}
+[14.646975] (-) TimerEvent: {}
+[14.749066] (-) TimerEvent: {}
+[14.849736] (-) TimerEvent: {}
+[14.950317] (-) TimerEvent: {}
+[15.050831] (-) TimerEvent: {}
+[15.151289] (-) TimerEvent: {}
+[15.252078] (-) TimerEvent: {}
+[15.353389] (-) TimerEvent: {}
+[15.454831] (-) TimerEvent: {}
+[15.555820] (-) TimerEvent: {}
+[15.660808] (-) TimerEvent: {}
+[15.765568] (-) TimerEvent: {}
+[15.866666] (-) TimerEvent: {}
+[15.969136] (-) TimerEvent: {}
+[16.069644] (-) TimerEvent: {}
+[16.075262] (safety_shield) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_shield_node\x1b[0m\n'}
+[16.169893] (-) TimerEvent: {}
+[16.271547] (-) TimerEvent: {}
+[16.373179] (-) TimerEvent: {}
+[16.477677] (-) TimerEvent: {}
+[16.580587] (-) TimerEvent: {}
+[16.683014] (-) TimerEvent: {}
+[16.785756] (-) TimerEvent: {}
+[16.894941] (-) TimerEvent: {}
+[16.971303] (safety_shield) StdoutLine: {'line': b'[100%] Built target safety_shield_node\n'}
+[16.991354] (safety_shield) CommandEnded: {'returncode': 0}
+[16.992395] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'install'}
+[16.993946] (safety_shield) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fvc/ros2_ws/build/safety_shield'], 'cwd': '/home/fvc/ros2_ws/build/safety_shield', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/safety_shield'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble')]), 'shell': False}
+[16.995494] (-) TimerEvent: {}
+[17.006357] (safety_shield) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.007040] (safety_shield) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.007142] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node\n'}
+[17.008006] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/publisher_node\n'}
+[17.008102] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/package_run_dependencies/safety_shield\n'}
+[17.008762] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/parent_prefix_path/safety_shield\n'}
+[17.008865] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.sh\n'}
+[17.008946] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.dsv\n'}
+[17.009051] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.sh\n'}
+[17.009116] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.dsv\n'}
+[17.010287] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.bash\n'}
+[17.010361] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.sh\n'}
+[17.010414] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.zsh\n'}
+[17.010464] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.dsv\n'}
+[17.010515] (safety_shield) StdoutLine: {'line': b'-- Symlinking: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.dsv\n'}
+[17.025653] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/packages/safety_shield\n'}
+[17.026457] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig.cmake\n'}
+[17.026547] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig-version.cmake\n'}
+[17.026604] (safety_shield) StdoutLine: {'line': b'-- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.xml\n'}
+[17.031196] (safety_shield) CommandEnded: {'returncode': 0}
+[17.055349] (safety_shield) JobEnded: {'identifier': 'safety_shield', 'rc': 0}
+[17.056674] (-) EventReactorShutdown: {}

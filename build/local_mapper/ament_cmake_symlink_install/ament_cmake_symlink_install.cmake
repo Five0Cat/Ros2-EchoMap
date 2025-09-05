@@ -352,6 +352,9 @@ ament_cmake_symlink_install_files("/home/fvc/ros2_ws/src/local_mapper/src/local_
 # install(FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_index/share/ament_index/resource_index/packages/local_mapper" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/fvc/ros2_ws/src/local_mapper/src/local_mapper" FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_index/share/ament_index/resource_index/packages/local_mapper" "DESTINATION" "share/ament_index/resource_index/packages")
 
+# install(FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/local_mapper/cmake")
+ament_cmake_symlink_install_files("/home/fvc/ros2_ws/src/local_mapper/src/local_mapper" FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/local_mapper/cmake")
+
 # install(FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_core/local_mapperConfig.cmake" "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_core/local_mapperConfig-version.cmake" "DESTINATION" "share/local_mapper/cmake")
 ament_cmake_symlink_install_files("/home/fvc/ros2_ws/src/local_mapper/src/local_mapper" FILES "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_core/local_mapperConfig.cmake" "/home/fvc/ros2_ws/build/local_mapper/ament_cmake_core/local_mapperConfig-version.cmake" "DESTINATION" "share/local_mapper/cmake")
 

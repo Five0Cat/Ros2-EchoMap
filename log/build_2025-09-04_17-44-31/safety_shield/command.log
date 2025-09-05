@@ -1,4 +1,0 @@
-Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
-Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
-Invoking command in '/home/fvc/ros2_ws/build/safety_shield': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield
-Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield

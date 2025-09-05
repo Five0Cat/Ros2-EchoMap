@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target safety_shield_node[0m
+[0.149s] [ 50%] Built target publisher_node
+[0.181s] [ 75%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[15.866s] [100%] [32m[1mLinking CXX executable safety_shield_node[0m
+[16.762s] [100%] Built target safety_shield_node
+[16.782s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[16.785s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield
+[16.797s] -- Install configuration: ""
+[16.798s] -- Execute custom install script
+[16.798s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node
+[16.799s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/publisher_node
+[16.799s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/package_run_dependencies/safety_shield
+[16.799s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/parent_prefix_path/safety_shield
+[16.799s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.sh
+[16.799s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.dsv
+[16.800s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.sh
+[16.801s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.dsv
+[16.801s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.bash
+[16.801s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.sh
+[16.801s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.zsh
+[16.801s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.dsv
+[16.801s] -- Symlinking: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.dsv
+[16.816s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/packages/safety_shield
+[16.817s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig.cmake
+[16.817s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig-version.cmake
+[16.817s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.xml
+[16.824s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '0': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/safety_shield

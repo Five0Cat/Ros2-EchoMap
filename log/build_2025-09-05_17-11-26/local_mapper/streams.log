@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fvc/ros2_ws/src/local_mapper/src/local_mapper -DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper
+[0.045s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.243s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.299s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.404s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.727s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.756s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.786s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.794s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.911s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.004s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.005s] -- Configured cppcheck include dirs: /home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include
+[1.005s] -- Configured cppcheck exclude dirs and/or files: 
+[1.006s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.006s] -- Added test 'lint_cmake' to check CMake code style
+[1.007s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.012s] -- Added test 'uncrustify' to check C / C++ code style
+[1.012s] -- Configured uncrustify additional arguments: 
+[1.012s] -- Added test 'xmllint' to check XML markup files
+[1.012s] -- Configuring done
+[1.035s] -- Generating done
+[1.043s] -- Build files have been written to: /home/fvc/ros2_ws/build/local_mapper

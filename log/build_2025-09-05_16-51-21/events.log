@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.001504] (local_mapper) JobQueued: {'identifier': 'local_mapper', 'dependencies': OrderedDict()}
+[0.001568] (safety_shield) JobQueued: {'identifier': 'safety_shield', 'dependencies': OrderedDict()}
+[0.001607] (local_mapper) JobStarted: {'identifier': 'local_mapper'}
+[0.019719] (safety_shield) JobStarted: {'identifier': 'safety_shield'}
+[0.036551] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'cmake'}
+[0.037649] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '/home/fvc/ros2_ws/src/local_mapper/src/local_mapper', '-DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060063] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'cmake'}
+[0.060915] (safety_shield) Command: {'cmd': ['/usr/bin/cmake', '/home/fvc/ros2_ws/src/safety_shield', '-DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/safety_shield'], 'cwd': '/home/fvc/ros2_ws/build/safety_shield', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/safety_shield'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101131] (-) TimerEvent: {}
+[0.205880] (-) TimerEvent: {}
+[0.238471] (local_mapper) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.253894] (safety_shield) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.311057] (-) TimerEvent: {}
+[0.422728] (-) TimerEvent: {}
+[0.428847] (safety_shield) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.450877] (local_mapper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.484552] (safety_shield) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.494954] (local_mapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.528864] (-) TimerEvent: {}
+[0.629458] (-) TimerEvent: {}
+[0.737667] (local_mapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.737891] (-) TimerEvent: {}
+[0.742592] (local_mapper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.743388] (local_mapper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.748065] (local_mapper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.767385] (local_mapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.793207] (safety_shield) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.818685] (safety_shield) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.818998] (safety_shield) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.822084] (safety_shield) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.838371] (-) TimerEvent: {}
+[0.839993] (safety_shield) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.939605] (-) TimerEvent: {}
+[0.958145] (local_mapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.966571] (local_mapper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.969405] (local_mapper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.969480] (local_mapper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.976991] (local_mapper) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.032999] (safety_shield) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.040038] (-) TimerEvent: {}
+[1.041717] (safety_shield) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.042407] (safety_shield) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.043364] (safety_shield) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.046309] (safety_shield) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.142175] (-) TimerEvent: {}
+[1.237209] (local_mapper) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.242376] (-) TimerEvent: {}
+[1.335390] (safety_shield) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.343095] (-) TimerEvent: {}
+[1.424748] (local_mapper) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.444363] (-) TimerEvent: {}
+[1.476912] (safety_shield) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.544740] (-) TimerEvent: {}
+[1.547350] (safety_shield) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.548174] (local_mapper) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.557215] (safety_shield) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.557542] (local_mapper) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.579637] (safety_shield) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.603419] (local_mapper) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.603626] (safety_shield) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.613517] (local_mapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.631363] (safety_shield) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.636931] (local_mapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.649329] (-) TimerEvent: {}
+[1.710423] (safety_shield) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.721531] (safety_shield) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.723436] (local_mapper) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.729083] (local_mapper) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.750038] (-) TimerEvent: {}
+[1.852095] (-) TimerEvent: {}
+[1.873958] (safety_shield) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.921694] (local_mapper) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.953327] (-) TimerEvent: {}
+[1.965104] (safety_shield) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.982904] (local_mapper) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.041257] (safety_shield) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.046874] (local_mapper) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.054373] (-) TimerEvent: {}
+[2.056908] (safety_shield) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.059886] (local_mapper) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.158382] (-) TimerEvent: {}
+[2.259321] (-) TimerEvent: {}
+[2.300278] (safety_shield) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.300842] (safety_shield) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.335207] (local_mapper) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.335426] (local_mapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.368577] (-) TimerEvent: {}
+[2.470329] (-) TimerEvent: {}
+[2.532605] (safety_shield) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.535566] (local_mapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.538242] (safety_shield) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.543647] (local_mapper) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.570608] (-) TimerEvent: {}
+[2.671590] (-) TimerEvent: {}
+[2.692485] (local_mapper) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.703990] (safety_shield) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.773943] (-) TimerEvent: {}
+[2.775714] (safety_shield) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.778602] (local_mapper) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.821576] (local_mapper) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.832768] (safety_shield) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.848455] (local_mapper) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.874080] (-) TimerEvent: {}
+[2.979938] (-) TimerEvent: {}
+[3.082544] (-) TimerEvent: {}
+[3.100002] (local_mapper) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.111157] (safety_shield) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.111380] (safety_shield) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.111449] (safety_shield) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.115688] (safety_shield) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.119802] (safety_shield) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.121191] (safety_shield) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.123675] (safety_shield) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.129703] (safety_shield) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.173263] (safety_shield) StdoutLine: {'line': b'-- Generating done\n'}
+[3.184560] (-) TimerEvent: {}
+[3.186671] (safety_shield) StdoutLine: {'line': b'-- Build files have been written to: /home/fvc/ros2_ws/build/safety_shield\n'}
+[3.212139] (safety_shield) CommandEnded: {'returncode': 0}
+[3.222883] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'build'}
+[3.223018] (safety_shield) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/safety_shield', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/safety_shield', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/safety_shield'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.292780] (-) TimerEvent: {}
+[3.311196] (local_mapper) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.313095] (local_mapper) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include\n'}
+[3.313227] (local_mapper) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.314956] (local_mapper) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.315111] (local_mapper) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.315174] (local_mapper) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.318007] (local_mapper) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.318103] (local_mapper) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.319106] (local_mapper) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.322586] (local_mapper) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.377895] (local_mapper) StdoutLine: {'line': b'-- Generating done\n'}
+[3.405935] (-) TimerEvent: {}
+[3.413535] (safety_shield) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o\x1b[0m\n'}
+[3.415527] (local_mapper) StdoutLine: {'line': b'-- Build files have been written to: /home/fvc/ros2_ws/build/local_mapper\n'}
+[3.427829] (safety_shield) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.461918] (local_mapper) CommandEnded: {'returncode': 0}
+[3.465729] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'build'}
+[3.465804] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fvc/ros2_ws/build/local_mapper', '--', '-j2', '-l2'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.525017] (-) TimerEvent: {}
+[3.625641] (-) TimerEvent: {}
+[3.678375] (local_mapper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o\x1b[0m\n'}
+[3.728233] (-) TimerEvent: {}
+[3.828992] (-) TimerEvent: {}
+[3.930000] (-) TimerEvent: {}
+[4.030557] (-) TimerEvent: {}
+[4.131818] (-) TimerEvent: {}
+[4.233416] (-) TimerEvent: {}
+[4.335455] (-) TimerEvent: {}
+[4.438714] (-) TimerEvent: {}
+[4.539740] (-) TimerEvent: {}
+[4.641084] (-) TimerEvent: {}
+[4.748216] (-) TimerEvent: {}
+[4.851371] (-) TimerEvent: {}
+[4.953359] (-) TimerEvent: {}
+[5.056638] (-) TimerEvent: {}
+[5.159730] (-) TimerEvent: {}
+[5.261618] (-) TimerEvent: {}
+[5.362772] (-) TimerEvent: {}
+[5.475746] (-) TimerEvent: {}
+[5.576740] (-) TimerEvent: {}
+[5.687895] (-) TimerEvent: {}
+[5.789643] (-) TimerEvent: {}
+[5.897204] (-) TimerEvent: {}
+[6.002645] (-) TimerEvent: {}
+[6.104967] (-) TimerEvent: {}
+[6.206406] (-) TimerEvent: {}
+[6.309213] (-) TimerEvent: {}
+[6.411449] (-) TimerEvent: {}
+[6.513309] (-) TimerEvent: {}
+[6.615687] (-) TimerEvent: {}
+[6.716257] (-) TimerEvent: {}
+[6.822612] (-) TimerEvent: {}
+[6.923974] (-) TimerEvent: {}
+[7.026469] (-) TimerEvent: {}
+[7.131788] (-) TimerEvent: {}
+[7.232336] (-) TimerEvent: {}
+[7.334030] (-) TimerEvent: {}
+[7.435913] (-) TimerEvent: {}
+[7.538014] (-) TimerEvent: {}
+[7.658699] (-) TimerEvent: {}
+[7.759682] (-) TimerEvent: {}
+[7.862697] (-) TimerEvent: {}
+[7.974662] (-) TimerEvent: {}
+[8.075173] (-) TimerEvent: {}
+[8.175780] (-) TimerEvent: {}
+[8.276556] (-) TimerEvent: {}
+[8.383706] (-) TimerEvent: {}
+[8.484638] (-) TimerEvent: {}
+[8.585381] (-) TimerEvent: {}
+[8.686227] (-) TimerEvent: {}
+[8.786919] (-) TimerEvent: {}
+[8.887418] (-) TimerEvent: {}
+[8.988193] (-) TimerEvent: {}
+[9.089350] (-) TimerEvent: {}
+[9.191496] (-) TimerEvent: {}
+[9.292775] (-) TimerEvent: {}
+[9.396859] (-) TimerEvent: {}
+[9.501733] (-) TimerEvent: {}
+[9.605928] (-) TimerEvent: {}
+[9.713910] (-) TimerEvent: {}
+[9.818116] (-) TimerEvent: {}
+[9.919040] (-) TimerEvent: {}
+[10.024065] (-) TimerEvent: {}
+[10.126708] (-) TimerEvent: {}
+[10.228300] (-) TimerEvent: {}
+[10.331416] (-) TimerEvent: {}
+[10.432750] (-) TimerEvent: {}
+[10.533568] (-) TimerEvent: {}
+[10.636905] (-) TimerEvent: {}
+[10.760406] (-) TimerEvent: {}
+[10.863091] (-) TimerEvent: {}
+[10.971359] (-) TimerEvent: {}
+[11.075207] (-) TimerEvent: {}
+[11.186279] (-) TimerEvent: {}
+[11.287616] (-) TimerEvent: {}
+[11.389612] (-) TimerEvent: {}
+[11.495296] (-) TimerEvent: {}
+[11.600628] (-) TimerEvent: {}
+[11.704219] (-) TimerEvent: {}
+[11.813082] (-) TimerEvent: {}
+[11.913999] (-) TimerEvent: {}
+[12.019981] (-) TimerEvent: {}
+[12.128093] (-) TimerEvent: {}
+[12.232349] (-) TimerEvent: {}
+[12.336100] (-) TimerEvent: {}
+[12.440252] (-) TimerEvent: {}
+[12.544456] (-) TimerEvent: {}
+[12.659533] (-) TimerEvent: {}
+[12.775380] (-) TimerEvent: {}
+[12.878918] (-) TimerEvent: {}
+[12.984742] (-) TimerEvent: {}
+[13.088649] (-) TimerEvent: {}
+[13.195421] (-) TimerEvent: {}
+[13.236602] (safety_shield) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable safety_shield_node\x1b[0m\n'}
+[13.301252] (-) TimerEvent: {}
+[13.404604] (-) TimerEvent: {}
+[13.530668] (-) TimerEvent: {}
+[13.634630] (-) TimerEvent: {}
+[13.735679] (-) TimerEvent: {}
+[13.778373] (safety_shield) StdoutLine: {'line': b'[ 75%] Built target safety_shield_node\n'}
+[13.841005] (-) TimerEvent: {}
+[13.946107] (-) TimerEvent: {}
+[14.049253] (-) TimerEvent: {}
+[14.153765] (-) TimerEvent: {}
+[14.256662] (-) TimerEvent: {}
+[14.358819] (-) TimerEvent: {}
+[14.462841] (-) TimerEvent: {}
+[14.578450] (-) TimerEvent: {}
+[14.682265] (-) TimerEvent: {}
+[14.790074] (-) TimerEvent: {}
+[14.892521] (-) TimerEvent: {}
+[14.996007] (-) TimerEvent: {}
+[15.101836] (-) TimerEvent: {}
+[15.210037] (-) TimerEvent: {}
+[15.313668] (-) TimerEvent: {}
+[15.417564] (-) TimerEvent: {}
+[15.522073] (-) TimerEvent: {}
+[15.628917] (-) TimerEvent: {}
+[15.732252] (-) TimerEvent: {}
+[15.838853] (-) TimerEvent: {}
+[15.943974] (-) TimerEvent: {}
+[16.050718] (-) TimerEvent: {}
+[16.159096] (-) TimerEvent: {}
+[16.263262] (-) TimerEvent: {}
+[16.363984] (-) TimerEvent: {}
+[16.465461] (-) TimerEvent: {}
+[16.574925] (-) TimerEvent: {}
+[16.676945] (-) TimerEvent: {}
+[16.685379] (safety_shield) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[16.789563] (-) TimerEvent: {}
+[16.896425] (-) TimerEvent: {}
+[17.000346] (-) TimerEvent: {}
+[17.101152] (-) TimerEvent: {}
+[17.203312] (-) TimerEvent: {}
+[17.251075] (safety_shield) StdoutLine: {'line': b'[100%] Built target publisher_node\n'}
+[17.274441] (safety_shield) CommandEnded: {'returncode': 0}
+[17.276082] (safety_shield) JobProgress: {'identifier': 'safety_shield', 'progress': 'install'}
+[17.294018] (safety_shield) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fvc/ros2_ws/build/safety_shield'], 'cwd': '/home/fvc/ros2_ws/build/safety_shield', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/safety_shield'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.303309] (safety_shield) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.303533] (-) TimerEvent: {}
+[17.304333] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node\n'}
+[17.307635] (safety_shield) StdoutLine: {'line': b'-- Set runtime path of "/home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/safety_shield_node" to ""\n'}
+[17.308045] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/launch\n'}
+[17.308756] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/publisher_node\n'}
+[17.324900] (safety_shield) StdoutLine: {'line': b'-- Set runtime path of "/home/fvc/ros2_ws/install/safety_shield/lib/safety_shield/publisher_node" to ""\n'}
+[17.325134] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/package_run_dependencies/safety_shield\n'}
+[17.327166] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/parent_prefix_path/safety_shield\n'}
+[17.327397] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.sh\n'}
+[17.327616] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/ament_prefix_path.dsv\n'}
+[17.327685] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.sh\n'}
+[17.327739] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/environment/path.dsv\n'}
+[17.327807] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.bash\n'}
+[17.327907] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.sh\n'}
+[17.328104] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.zsh\n'}
+[17.328166] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/local_setup.dsv\n'}
+[17.328264] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.dsv\n'}
+[17.328362] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/ament_index/resource_index/packages/safety_shield\n'}
+[17.328416] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig.cmake\n'}
+[17.331934] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/cmake/safety_shieldConfig-version.cmake\n'}
+[17.332127] (safety_shield) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/safety_shield/share/safety_shield/package.xml\n'}
+[17.341898] (safety_shield) CommandEnded: {'returncode': 0}
+[17.393118] (safety_shield) JobEnded: {'identifier': 'safety_shield', 'rc': 0}
+[17.403843] (-) TimerEvent: {}
+[17.504970] (-) TimerEvent: {}
+[17.606273] (-) TimerEvent: {}
+[17.707566] (-) TimerEvent: {}
+[17.808954] (-) TimerEvent: {}
+[17.910449] (-) TimerEvent: {}
+[18.011788] (-) TimerEvent: {}
+[18.113110] (-) TimerEvent: {}
+[18.214008] (-) TimerEvent: {}
+[18.315643] (-) TimerEvent: {}
+[18.416192] (-) TimerEvent: {}
+[18.516820] (-) TimerEvent: {}
+[18.624464] (-) TimerEvent: {}
+[18.725363] (-) TimerEvent: {}
+[18.825843] (-) TimerEvent: {}
+[18.926347] (-) TimerEvent: {}
+[19.027345] (-) TimerEvent: {}
+[19.128939] (-) TimerEvent: {}
+[19.229658] (-) TimerEvent: {}
+[19.330552] (-) TimerEvent: {}
+[19.431016] (-) TimerEvent: {}
+[19.532048] (-) TimerEvent: {}
+[19.633234] (-) TimerEvent: {}
+[19.736852] (-) TimerEvent: {}
+[19.837530] (-) TimerEvent: {}
+[19.938710] (-) TimerEvent: {}
+[20.039775] (-) TimerEvent: {}
+[20.140946] (-) TimerEvent: {}
+[20.243271] (-) TimerEvent: {}
+[20.344042] (-) TimerEvent: {}
+[20.445308] (-) TimerEvent: {}
+[20.545708] (-) TimerEvent: {}
+[20.646528] (-) TimerEvent: {}
+[20.747096] (-) TimerEvent: {}
+[20.848088] (-) TimerEvent: {}
+[20.948631] (-) TimerEvent: {}
+[21.049212] (-) TimerEvent: {}
+[21.154429] (-) TimerEvent: {}
+[21.255265] (-) TimerEvent: {}
+[21.357646] (-) TimerEvent: {}
+[21.458671] (-) TimerEvent: {}
+[21.559780] (-) TimerEvent: {}
+[21.661129] (-) TimerEvent: {}
+[21.762302] (-) TimerEvent: {}
+[21.863075] (-) TimerEvent: {}
+[21.963649] (-) TimerEvent: {}
+[22.064465] (-) TimerEvent: {}
+[22.172056] (-) TimerEvent: {}
+[22.272958] (-) TimerEvent: {}
+[22.373850] (-) TimerEvent: {}
+[22.412104] (local_mapper) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable local_mapper_node\x1b[0m\n'}
+[22.474137] (-) TimerEvent: {}
+[22.575084] (-) TimerEvent: {}
+[22.675738] (-) TimerEvent: {}
+[22.776462] (-) TimerEvent: {}
+[22.880152] (-) TimerEvent: {}
+[22.884185] (local_mapper) StdoutLine: {'line': b'[100%] Built target local_mapper_node\n'}
+[22.903399] (local_mapper) CommandEnded: {'returncode': 0}
+[22.905226] (local_mapper) JobProgress: {'identifier': 'local_mapper', 'progress': 'install'}
+[22.910222] (local_mapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fvc/ros2_ws/build/local_mapper'], 'cwd': '/home/fvc/ros2_ws/build/local_mapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fvc'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fvc'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/fvc/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1017'), ('BUNDLED_DEBUGPY_PATH', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fvc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fvc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/fvc-virtual-machine:@/tmp/.ICE-unix/1017,unix/fvc-virtual-machine:/tmp/.ICE-unix/1017'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/805bbd9d_788b_4e29_b7b6_a72e7756b993'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fvc/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-da0e49bc1c64e5a9.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-87b83a5259.sock'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fvc/ros2_ws/build/local_mapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6ec99222a8ffbc2ffdd0475368ba891d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.932063] (local_mapper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.932343] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node\n'}
+[22.940360] (local_mapper) StdoutLine: {'line': b'-- Set runtime path of "/home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node" to ""\n'}
+[22.940735] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch\n'}
+[22.940830] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch/demo.launch.py\n'}
+[22.940959] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/package_run_dependencies/local_mapper\n'}
+[22.941105] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/parent_prefix_path/local_mapper\n'}
+[22.941363] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.sh\n'}
+[22.941575] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.dsv\n'}
+[22.941808] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.sh\n'}
+[22.942027] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.dsv\n'}
+[22.942261] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.bash\n'}
+[22.944033] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.sh\n'}
+[22.944139] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.zsh\n'}
+[22.944432] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.dsv\n'}
+[22.944497] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.dsv\n'}
+[22.944551] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/packages/local_mapper\n'}
+[22.944611] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig.cmake\n'}
+[22.944662] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig-version.cmake\n'}
+[22.944710] (local_mapper) StdoutLine: {'line': b'-- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.xml\n'}
+[22.950770] (local_mapper) CommandEnded: {'returncode': 0}
+[22.963187] (local_mapper) JobEnded: {'identifier': 'local_mapper', 'rc': 0}
+[22.964449] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[0.017s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target safety_shield_node[0m
+[0.115s] [ 50%] Built target publisher_node
+[0.153s] [ 75%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[3.406s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:85:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGridInfo[m[K’ does not name a type
+[3.406s]    85 |   [01;31m[KGridInfo[m[K gi_;
+[3.406s]       |   [01;31m[K^~~~~~~~[m[K
+[3.436s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:[m[K In member function ‘[01m[Kvoid SafetyShield::onGrid(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.436s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgi_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgrid_[m[K’?
+[3.436s]    41 |     [01;31m[Kgi_[m[K.res = grid_.info.resolution;
+[3.436s]       |     [01;31m[K^~~[m[K
+[3.436s]       |     [32m[Kgrid_[m[K
+[3.445s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:[m[K In member function ‘[01m[Kvoid SafetyShield::onCmd(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.445s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:54:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgi_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgrid_[m[K’?
+[3.447s]    54 |       const double step = std::max([01;31m[Kgi_[m[K.res, 0.05);
+[3.447s]       |                                    [01;31m[K^~~[m[K
+[3.447s]       |                                    [32m[Kgrid_[m[K
+[3.447s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:57:23:[m[K [01;31m[Kerror: [m[K‘[01m[KworldToCell[m[K’ was not declared in this scope; did you mean ‘[01m[Klm::worldToCell[m[K’?
+[3.447s]    57 |           auto cell = [01;31m[KworldToCell[m[K(x, y, gi_);
+[3.447s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[3.447s]       |                       [32m[Klm::worldToCell[m[K
+[3.447s] In file included from [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:8[m[K:
+[3.447s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:14:1:[m[K [01;36m[Knote: [m[K‘[01m[Klm::worldToCell[m[K’ declared here
+[3.447s]    14 | [01;36m[KworldToCell[m[K(double x, double y, const GridInfo& g) {
+[3.447s]       | [01;36m[K^~~~~~~~~~~[m[K
+[3.447s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:59:21:[m[K [01;31m[Kerror: [m[K‘[01m[KcellIndex[m[K’ was not declared in this scope; did you mean ‘[01m[Klm::cellIndex[m[K’?
+[3.448s]    59 |           int idx = [01;31m[KcellIndex[m[K(cell->first, cell->second, gi_.w);
+[3.448s]       |                     [01;31m[K^~~~~~~~~[m[K
+[3.448s]       |                     [32m[Klm::cellIndex[m[K
+[3.448s] In file included from [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:8[m[K:
+[3.448s] [01m[K/home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include/local_mapper/utils.hpp:24:12:[m[K [01;36m[Knote: [m[K‘[01m[Klm::cellIndex[m[K’ declared here
+[3.448s]    24 | inline int [01;36m[KcellIndex[m[K(int ix, int iy, int w) {
+[3.448s]       |            [01;36m[K^~~~~~~~~[m[K
+[7.260s] gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+[7.261s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/safety_shield_node.dir/all] Error 2
+[7.261s] gmake: *** [Makefile:146: all] Error 2
+[7.264s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '2': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2

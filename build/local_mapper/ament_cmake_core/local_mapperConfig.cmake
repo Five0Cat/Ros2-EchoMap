@@ -36,7 +36,7 @@ endif()
 set(local_mapper_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_include_directories-extras.cmake")
 foreach(_extra ${_extras})
   include("${local_mapper_DIR}/${_extra}")
 endforeach()

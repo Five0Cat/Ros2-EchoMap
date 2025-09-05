@@ -1,0 +1,76 @@
+[0.037s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fvc/ros2_ws/src/local_mapper/src/local_mapper -DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.449s] -- The CXX compiler identification is GNU 11.4.0
+[0.494s] -- Detecting C compiler ABI info
+[0.736s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.747s] -- Detecting C compile features - done
+[0.766s] -- Detecting CXX compiler ABI info
+[0.957s] -- Detecting CXX compiler ABI info - done
+[0.968s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.968s] -- Detecting CXX compile features
+[0.968s] -- Detecting CXX compile features - done
+[0.976s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.236s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.423s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.549s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.556s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.602s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.722s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.728s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.981s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.058s] -- Looking for pthread.h
+[2.334s] -- Looking for pthread.h - found
+[2.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.542s] -- Found Threads: TRUE  
+[2.691s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.777s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.820s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.847s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.099s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.310s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.312s] -- Configured cppcheck include dirs: /home/fvc/ros2_ws/src/local_mapper/src/local_mapper/include
+[3.312s] -- Configured cppcheck exclude dirs and/or files: 
+[3.313s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.314s] -- Added test 'lint_cmake' to check CMake code style
+[3.314s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.316s] -- Added test 'uncrustify' to check C / C++ code style
+[3.317s] -- Configured uncrustify additional arguments: 
+[3.318s] -- Added test 'xmllint' to check XML markup files
+[3.321s] -- Configuring done
+[3.376s] -- Generating done
+[3.414s] -- Build files have been written to: /home/fvc/ros2_ws/build/local_mapper
+[3.461s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fvc/ros2_ws/src/local_mapper/src/local_mapper -DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper
+[3.464s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[3.677s] [ 50%] [32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o[0m
+[22.411s] [100%] [32m[1mLinking CXX executable local_mapper_node[0m
+[22.883s] [100%] Built target local_mapper_node
+[22.902s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[22.909s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper
+[22.931s] -- Install configuration: ""
+[22.931s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node
+[22.939s] -- Set runtime path of "/home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node" to ""
+[22.939s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch
+[22.939s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch/demo.launch.py
+[22.939s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/package_run_dependencies/local_mapper
+[22.940s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/parent_prefix_path/local_mapper
+[22.940s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.sh
+[22.940s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.dsv
+[22.940s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.sh
+[22.940s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.dsv
+[22.941s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.bash
+[22.942s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.sh
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.zsh
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.dsv
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.dsv
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/packages/local_mapper
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig.cmake
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig-version.cmake
+[22.943s] -- Installing: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.xml
+[22.949s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper

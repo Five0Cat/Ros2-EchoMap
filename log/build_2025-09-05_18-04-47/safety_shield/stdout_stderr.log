@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target safety_shield_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[ 75%] Built target publisher_node
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:85:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGridInfo[m[K’ does not name a type
+   85 |   [01;31m[KGridInfo[m[K gi_;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:[m[K In member function ‘[01m[Kvoid SafetyShield::onGrid(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgi_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgrid_[m[K’?
+   41 |     [01;31m[Kgi_[m[K.res = grid_.info.resolution;
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kgrid_[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:[m[K In member function ‘[01m[Kvoid SafetyShield::onCmd(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:54:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgi_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgrid_[m[K’?
+   54 |       const double step = std::max([01;31m[Kgi_[m[K.res, 0.05);
+      |                                    [01;31m[K^~~[m[K
+      |                                    [32m[Kgrid_[m[K
+gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/safety_shield_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

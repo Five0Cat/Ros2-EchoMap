@@ -1,0 +1,9 @@
+[ 75%] Built target publisher_node
+[ 75%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Klocal_mapper/lm/utils.hpp: No such file or directory
+    8 | #include [01;31m[K"local_mapper/lm/utils.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/safety_shield_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

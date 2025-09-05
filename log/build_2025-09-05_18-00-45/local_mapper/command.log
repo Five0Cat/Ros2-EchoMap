@@ -1,0 +1,6 @@
+Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fvc/ros2_ws/src/local_mapper/src/local_mapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper
+Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fvc/ros2_ws/src/local_mapper/src/local_mapper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fvc/ros2_ws/install/local_mapper
+Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper
+Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper

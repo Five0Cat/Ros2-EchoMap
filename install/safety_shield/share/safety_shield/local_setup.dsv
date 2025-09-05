@@ -1,2 +1,1 @@
-source;share/safety_shield/environment/ament_prefix_path.sh
-source;share/safety_shield/environment/path.sh
+/home/fvc/ros2_ws/build/safety_shield/ament_cmake_environment_hooks/local_setup.dsv

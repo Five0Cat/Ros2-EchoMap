@@ -18,6 +18,7 @@ add_executable(local_mapper_node src/local_mapper.cpp)
 ament_target_dependencies(local_mapper_node rclcpp nav_msgs sensor_msgs)
 install(TARGETS local_mapper_node DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
+ament_export_include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -28,6 +29,7 @@ if(BUILD_TESTING)
   # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
+
 endif()
 
 ament_package()

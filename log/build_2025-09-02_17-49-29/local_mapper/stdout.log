@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target local_mapper_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/local_mapper_node.dir/src/local_mapper.cpp.o[0m
-[100%] [32m[1mLinking CXX executable local_mapper_node[0m
-[100%] Built target local_mapper_node
--- Install configuration: ""
--- Execute custom install script
--- Symlinking: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node

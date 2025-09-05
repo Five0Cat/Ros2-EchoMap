@@ -1,0 +1,40 @@
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:[m[K In constructor ‘[01m[KSafetyShield::SafetyShield()[m[K’:
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid_topic_[m[K’ was not declared in this scope
+   15 |         [01;31m[Kgrid_topic_[m[K   = this->declare_parameter<std::string>("grid_topic", "/local_grid");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kin_cmd_topic_[m[K’ was not declared in this scope
+   16 |         [01;31m[Kin_cmd_topic_[m[K = this->declare_parameter<std::string>("in_cmd", "/cmd_vel");
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kout_cmd_topic_[m[K’ was not declared in this scope
+   17 |         [01;31m[Kout_cmd_topic_[m[K= this->declare_parameter<std::string>("out_cmd", "/cmd_vel_safe");
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_distance_m_[m[K’ was not declared in this scope
+   19 |         [01;31m[Kstop_distance_m_[m[K = this->declare_parameter<double>("stop_distance", 0.8);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klateral_half_m_[m[K’ was not declared in this scope
+   20 |         [01;31m[Klateral_half_m_[m[K  = this->declare_parameter<double>("lateral_half", 0.3);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koccupied_threshold_[m[K’ was not declared in this scope
+   21 |         [01;31m[Koccupied_threshold_[m[K = this->declare_parameter<int>("occupied_threshold", 50);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kverbose_[m[K’ was not declared in this scope
+   22 |         [01;31m[Kverbose_[m[K = this->declare_parameter<bool>("verbose", false);
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_safe_[m[K’ was not declared in this scope
+   23 |         [01;31m[Kpub_safe_[m[K = this->create_publisher<geometry_msgs::msg::Twist>(out_cmd_topic_, 10);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_grid_[m[K’ was not declared in this scope
+   25 |         [01;31m[Ksub_grid_[m[K = this->create_subscription<nav_msgs::msg::OccupancyGrid>(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:27:34:[m[K [01;31m[Kerror: [m[K‘[01m[KonGrid[m[K’ is not a member of ‘[01m[KSafetyShield[m[K’
+   27 |         std::bind(&SafetyShield::[01;31m[KonGrid[m[K, this, std::placeholders::_1));
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_cmd_[m[K’ was not declared in this scope
+   29 |         [01;31m[Ksub_cmd_[m[K = this->create_subscription<geometry_msgs::msg::Twist>(
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:31:34:[m[K [01;31m[Kerror: [m[K‘[01m[KonCmd[m[K’ is not a member of ‘[01m[KSafetyShield[m[K’
+   31 |         std::bind(&SafetyShield::[01;31m[KonCmd[m[K, this, std::placeholders::_1));
+      |                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/safety_shield_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target local_mapper_node[0m
+[0.097s] [100%] Built target local_mapper_node
+[0.116s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/local_mapper -- -j2 -l2
+[0.133s] Invoking command in '/home/fvc/ros2_ws/build/local_mapper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper
+[0.141s] -- Install configuration: ""
+[0.142s] -- Execute custom install script
+[0.142s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/lib/local_mapper/local_mapper_node
+[0.143s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper//launch/demo.launch.py
+[0.144s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/package_run_dependencies/local_mapper
+[0.144s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/parent_prefix_path/local_mapper
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.sh
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/environment/path.dsv
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.bash
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.sh
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.zsh
+[0.145s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/local_setup.dsv
+[0.146s] -- Symlinking: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.dsv
+[0.157s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/ament_index/resource_index/packages/local_mapper
+[0.158s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig.cmake
+[0.158s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/cmake/local_mapperConfig-version.cmake
+[0.158s] -- Up-to-date symlink: /home/fvc/ros2_ws/install/local_mapper/share/local_mapper/package.xml
+[0.161s] Invoked command in '/home/fvc/ros2_ws/build/local_mapper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fvc/ros2_ws/build/local_mapper

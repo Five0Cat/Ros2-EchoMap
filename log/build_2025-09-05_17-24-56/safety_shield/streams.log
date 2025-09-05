@@ -1,0 +1,12 @@
+[0.016s] Invoking command in '/home/fvc/ros2_ws/build/safety_shield': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.115s] [ 25%] [32mBuilding CXX object CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o[0m
+[0.118s] [ 75%] Built target publisher_node
+[0.437s] [01m[K/home/fvc/ros2_ws/src/safety_shield/src/safety_shield.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Klocal_mapper/utils.hpp: No such file or directory
+[0.437s]     8 | #include [01;31m[K"local_mapper/utils.hpp"[m[K
+[0.437s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.437s] compilation terminated.
+[0.443s] gmake[2]: *** [CMakeFiles/safety_shield_node.dir/build.make:76: CMakeFiles/safety_shield_node.dir/src/safety_shield.cpp.o] Error 1
+[0.445s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/safety_shield_node.dir/all] Error 2
+[0.445s] gmake: *** [Makefile:146: all] Error 2
+[0.447s] Invoked command in '/home/fvc/ros2_ws/build/safety_shield' returned '2': AMENT_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fvc/ros2_ws/install/local_mapper:/opt/ros/humble /usr/bin/cmake --build /home/fvc/ros2_ws/build/safety_shield -- -j2 -l2

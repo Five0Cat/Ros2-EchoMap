@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fvc/ros2_ws/safety_shield
+CMAKE_SOURCE_DIR = /home/fvc/ros2_ws/src/safety_shield
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/fvc/ros2_ws/build/safety_shield
@@ -210,6 +210,43 @@ safety_shield_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/safety_shield_node.dir/build.make CMakeFiles/safety_shield_node.dir/build
 .PHONY : safety_shield_node/fast
 
+#=============================================================================
+# Target rules for targets named publisher_node
+
+# Build rule for target.
+publisher_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publisher_node
+.PHONY : publisher_node
+
+# fast build rule for target.
+publisher_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node.dir/build.make CMakeFiles/publisher_node.dir/build
+.PHONY : publisher_node/fast
+
+src/publisher.o: src/publisher.cpp.o
+.PHONY : src/publisher.o
+
+# target to build an object file
+src/publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node.dir/build.make CMakeFiles/publisher_node.dir/src/publisher.cpp.o
+.PHONY : src/publisher.cpp.o
+
+src/publisher.i: src/publisher.cpp.i
+.PHONY : src/publisher.i
+
+# target to preprocess a source file
+src/publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node.dir/build.make CMakeFiles/publisher_node.dir/src/publisher.cpp.i
+.PHONY : src/publisher.cpp.i
+
+src/publisher.s: src/publisher.cpp.s
+.PHONY : src/publisher.s
+
+# target to generate assembly for a file
+src/publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_node.dir/build.make CMakeFiles/publisher_node.dir/src/publisher.cpp.s
+.PHONY : src/publisher.cpp.s
+
 src/safety_shield.o: src/safety_shield.cpp.o
 .PHONY : src/safety_shield.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... safety_shield_uninstall"
 	@echo "... uninstall"
+	@echo "... publisher_node"
 	@echo "... safety_shield_node"
+	@echo "... src/publisher.o"
+	@echo "... src/publisher.i"
+	@echo "... src/publisher.s"
 	@echo "... src/safety_shield.o"
 	@echo "... src/safety_shield.i"
 	@echo "... src/safety_shield.s"
